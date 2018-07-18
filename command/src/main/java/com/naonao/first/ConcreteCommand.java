@@ -8,7 +8,7 @@ package com.naonao.first;
  **/
 public class ConcreteCommand implements Command {
 
-    private Receiver receiver = null;
+    private Receiver receiver;
 
     public ConcreteCommand(Receiver receiver) {
         this.receiver = receiver;

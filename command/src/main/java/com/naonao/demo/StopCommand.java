@@ -8,7 +8,7 @@ public class StopCommand implements Command {
 
     private AudioPlayer audioPlayer;
 
-    public StopCommand(AudioPlayer audioPlayer) {
+    StopCommand(AudioPlayer audioPlayer) {
         this.audioPlayer = audioPlayer;
     }
 

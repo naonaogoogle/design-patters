@@ -8,7 +8,7 @@ public class PlayCommand implements Command {
 
     private AudioPlayer audioPlayer;
 
-    public PlayCommand(AudioPlayer audioPlayer) {
+    PlayCommand(AudioPlayer audioPlayer) {
         this.audioPlayer = audioPlayer;
     }
 

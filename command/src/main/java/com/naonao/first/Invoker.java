@@ -8,7 +8,7 @@ package com.naonao.first;
  **/
 public class Invoker {
 
-    private Command command = null;
+    private Command command;
 
     public Invoker(Command command) {
         this.command = command;
